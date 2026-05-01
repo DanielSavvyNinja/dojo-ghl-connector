@@ -7,7 +7,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "echo 'Library only — no dev server'",
-    "build": "echo 'Library only — no build step needed' && exit 0"
+    "build": "mkdir -p dist && echo '<!doctype html><meta charset=utf-8><title>dojo-ghl-connector</title><h1>dojo-ghl-connector</h1><p>This is a shared library, not a website. See README.md.</p>' > dist/index.html"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.44.0"
