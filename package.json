@@ -6,8 +6,8 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "dev": "echo 'Library only — no dev server'",
+    "build": "echo 'Library only — no build step needed' && exit 0"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.44.0"
